@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+    border: black 2px solid;
+}
+
+.tab-menu {
+    display: flex;
+    justify-content: space-around;
+    border: black 2px solid;
+    padding: 10px;
+    margin: 5px 5px 0 5px;
+}
+
+.tab{
+    color: black;
+}
+
+.tab-content {
+    padding: 10px;
+    margin: 5px;
+    border: black 2px solid;
+    text-align: center;
+}
+
+.text1 {
+    background-color:brown;
+    color: white;
+}
+.text2 {
+    background-color:yellowgreen;
+    color: black;
+}
+.text3 {
+    background-color: blue;
+    color: white;
+}
+.text4 {
+    background-color:blueviolet;
+    color: yellow;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
